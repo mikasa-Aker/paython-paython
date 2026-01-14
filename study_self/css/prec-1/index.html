@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><!--langauge english(artibute)-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mikasa-Aker.github.io/study_self/css/stylesheet.css">
+</head>
+<!---
+----CSS= Cascading Style sheet
+*{} = u nniversal selector
+
+Element selector
+h1{}
+
+id selector
+#myid{}
+
+class selector
+.myClass{}
+----
+
+
+---text properties
+ 
+-text-align:left/right/center
+-text-align: center;
+            ---underline----------
+    text-decoration: blue  wavy underline;
+
+
+    -----font weight
+    #m0{
+    font-weight: 800;
+    text-align: center;
+    color:black;
+
+    ------fornt familhy
+
+    
+    -
+    height
+    width=content length
+    padiing=distance from bottom
+    border
+    margin=space  between two content
+
+
+    ----Border
+    to write donwn every thing in sort word
+    border:2px solid black;
+
+    boredr-width;
+    border-style;
+    bordr-top;
+
+    bordr-radius:10px;
+    bordder-radius:50%;
+
+--------Display property
+-=inline-takes only the space required by elemnets
+ex-div,h1
+"dispalya:inline/block"
+-=block-takes full space available in width
+ex-spam,button
+-=inline block-similar to inline but we can set margin &margin\
+-=none-to  remove elements from documents flow
+e
+
+
+---------visiblity
+visiblity :hidden
+#to hide something but that live space
+
+
+---------Alpha channel
+
+opacity(0 to 1)
+=to dicide how much color you want to use
+ex=
+background-color: rgba(0,0,255,0.5);
+#0.5 is opacity
+
+--------Percentage(%)
+-it is often used to define a sizeas relative
+to element's parent object.
+
+css
+#box1{
+height:100px;
+width:100px;
+background-color:green;
+}
+
+#box2{
+height:50px
+width:30%
+background: yello;
+if-margin-left:10%
+
+}
+--------------em
+2em=means double
+
+
+------------Rem*(Root Em)
+
+-Font size of root element
+
+------vh
+-relative to 1% viewport height
+
+-------vw
+relative to 1% viewport width
+
+-----------Position
+
+
+-static
+    ex-#box1
+    { position:static;
+    }
+
+
+-relative-
+    elemnet is relative it self .(the top,rihght,bottom,left,and z-index will work)
+        ex-#box2{
+        position :rrelative;
+        top:10px;
+        left:10pc;
+        }
+
+
+----absolute- 
+    a positioned relative to its  closest positioned ancestor.(remove from)
+        (WORK FROM PARENT ELEMENT)
+        #box2{
+        position:absolute;
+        top:10px;
+        bottom:0px;
+        }
+
+        
+        
+        }
+--fixed -
+    posisioned relative to browser (remove from flow)
+ex-2-(for nav)
+        #box2{
+        position:fixed;
+        top:0px;
+---sticky-
+
+    position based on users scroll posion
+
+
+ex-2-(stick when you scroll)
+        #box2{
+        position:sticky;
+        top:0px;
+
+------------Z-index
+-its deside stack level of element(which one on top)
+-overlapping elements with large z-index cover thoes with smaller one.
+-
+z-index:auto(0)
+z-index:1/2/...
+z-index:-1/-2/...
+
+ex-
+        #box2{                      (gonn top) (no for static)
+            position:absolute;
+            top:10px;
+            bottom:0px;
+            z-index:1;
+            }
+            #box3{                (gonn hide)(no for static)
+            position:absolute;
+            top:10px;
+            bottom:1px;
+            z-index
+---------------images
+
+-unsplash for emage
+
+    #box1{
+            background-image:url("link")
+            }
+
+
+------------------back ground size property
+-background-size:cover/conatain/auto
+
+-cover-for all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<body>
+<h1 id="m0">Hello from Canada</h1>
+<h1 id="m1" >i am arshiya</h1>
+<h1 id="m2" >i am girl</h1>
+<h1 id="m3"> i am student</h1>
+<h2 style="color:forestgreen">welcome to Canada</h2>
+<p>Canada is amazing country,with lot of lacks
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsam non possimus expedita voluptas reiciendis officiis explicabo sapiente vitae. Voluptates quia ratione eius iusto ad molestias laudantium placeat soluta iure.
+<a>href=https://google.comclick me</a>
+
+</p>
+<button>click me!</button>
+<div>
+    this is div.
+</div>
+<div>div1</div>
+<br>
+<div>div2</div>
+<br>
+<div>div3</div>
+<br>
+</body>
+</html>

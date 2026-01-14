@@ -1,0 +1,58 @@
+h1{
+    color:red;
+    text-align: center;
+    text-decoration: blue  wavy underline;
+    border: 2px solid lightgrey;
+}
+p{
+    font-family:  'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    color:paleturquoise;
+}
+button{
+    color:brown;
+background-color:rgb(119, 34, 115);}
+
+#m0{
+    font-weight: 800;
+    text-align: center;
+    color:black;
+
+}
+#m1{
+    text-align: center;
+    color:yellow;
+
+}
+#m2{
+    text-align: center;
+    color:red;
+
+}
+#m3{
+    text-align: center;
+    color:powderblue;
+}
+ 
+
+
+
+
+    
+body{
+        background-color: rgb(125, 107, 189);
+    }
+
+
+div{
+    height: 100px;
+    background-color:lightblue;
+    width: 100px;
+    
+    border-width: 2px;
+    border-style: solid;
+    border-top: brown;
+}
+div{
+    border-radius: 5px;
+}
